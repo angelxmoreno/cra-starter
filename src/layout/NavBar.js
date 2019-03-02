@@ -13,8 +13,9 @@ export default () => (
     <a className="navbar-brand" href="/">Navbar</a>
     <div className="navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <RouteLink route='/home' text='Home' />
+        <RouteLink route='/' text='Home' />
         <RouteLink route='/about' text='About' />
+        <RouteLink route='/404' text='FourOhFour' />
       </ul>
     </div>
   </nav>
