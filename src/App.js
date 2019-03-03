@@ -7,7 +7,8 @@ import AboutPage from './layout/AboutPage';
 import NotFound from './layout/NotFoundPage';
 
 import { Provider } from 'mobx-react';
-import {alertStore} from './components/Alerts';
+import { alertStore } from './components/Alerts';
+import { authStore } from './components/Auth';
 
 const routes = [
   {
@@ -24,7 +25,7 @@ const routes = [
   }
 ];
 
-const stores = {alertStore}
+const stores = { alertStore, authStore }
 class App extends Component {
   render() {
     return (
